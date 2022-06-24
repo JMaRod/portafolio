@@ -1,0 +1,9 @@
+.header__descrption__content__social__link{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+
+
+
