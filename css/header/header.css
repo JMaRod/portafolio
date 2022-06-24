@@ -1,0 +1,5 @@
+.header {
+    display: flex;
+    background-color:var(--head-bg);
+    flex-wrap: wrap;
+}

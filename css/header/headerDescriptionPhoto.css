@@ -1,0 +1,13 @@
+.header__descrption__photo{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header__descrption__photo--img {
+    background-image: url(../../img/photo_icono.jpg);
+    width: 100px;
+    height: 100px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}

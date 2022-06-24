@@ -1,0 +1,9 @@
+.header__banner {
+    align-items: center;
+    display:inline;
+    width: 100%;
+    padding: 16px;
+    justify-content: space-between;
+    gap: 10px;
+
+}
