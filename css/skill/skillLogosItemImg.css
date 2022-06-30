@@ -1,0 +1,5 @@
+.skill__logos__item__img{
+    width: 40px; 
+    height: 40px;
+    fill: var(--sv--bg);
+}

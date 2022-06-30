@@ -1,0 +1,21 @@
+.hobbies__logos__item {
+    width: 35%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 20px;
+    margin: 16px; 
+}
+
+@media screen and (min-width:768px) {
+    .hobbies__logos__item {
+        width: 25%;
+        align-items: center;
+    }
+}
+
+
+

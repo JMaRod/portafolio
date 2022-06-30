@@ -1,0 +1,13 @@
+.banner__menu {
+    display: none;
+}
+
+@media screen and (min-width:1024px) {
+    .banner__menu {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        margin: 10px;
+    }
+    
+}

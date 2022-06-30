@@ -1,0 +1,7 @@
+.education__item__content__background {
+    width: 100%;
+    display: flex;
+    padding-bottom: 22px;
+    background: rgba(255, 255, 255, 0.287);
+    justify-content: center;
+}

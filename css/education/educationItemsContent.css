@@ -1,0 +1,45 @@
+.education__items__content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 30px;
+}
+
+.education__items__content__logo{
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 20px;
+}
+
+.education__items__content__logo--fi{
+    background-image: url(../../img/unam.svg);
+}
+
+.education__items__content__logo--Lx{
+    background-image: url(../../img/Innovaccion_virtual.jpg);
+}
+
+.education__items__content__logo--alura{
+    width: 150px;
+    height: 150px; 
+    display: flex;
+    background-image: url(../../img/alura.png);
+    background-size: auto;
+    background-position: 40px;
+}
+
+@media screen and (min-width:768px) {
+    .education__items__content{
+        width: 30%;
+    }
+    .education__items__content__logo--alura {
+        width: 100px;
+        height: 100px;
+        background-position: 10px;
+    }
+}
+

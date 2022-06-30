@@ -1,0 +1,41 @@
+.banner__logo{
+    align-items: center;
+    display: flex;
+}
+
+.banner__logo--img{
+    height: 50px;
+    width: 50px;
+    background-image: url(../../img/banner-logo.png); 
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.banner__logo--name{
+    font-family: 'Open sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400px;
+    line-height: 18.78px;
+    margin-left: 5px;
+}
+
+@media screen and (min-width:768px) {
+    .banner__logo--img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .banner__logo--name {
+        font-size: 22px;
+        margin-left: 10px;
+    }
+    
+}
+
+@media screen and (min-width:1024px) {
+    .banner__logo--img {
+        width: 120px;
+        height: 120px;
+    }
+    
+}

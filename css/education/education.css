@@ -1,0 +1,15 @@
+.education {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media screen and (min-width:768px) {
+    .education {
+        display: flex;
+        justify-content: center;
+
+    }
+    
+}

@@ -7,70 +7,315 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/principal.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/header/header.css">
-    <link rel="stylesheet" href="./css/header/headerBanner.css">
-    <link rel="stylesheet" href="./css/header/headerBannerTitulo.css">
-    <link rel="stylesheet" href="./css/header/headerBannerTituloLogo.css">
-    <link rel="stylesheet" href="./css/header/headerBannerTituloEmail.css">
-    <link rel="stylesheet" href="./css/header/headerDescription.css">
-    <link rel="stylesheet" href="./css/header/headerDescriptionPhoto.css">
-    <link rel="stylesheet" href="./css/header/headerDescriptionContent.css">
-    <link rel="stylesheet" href="./css/header/headerDescriptionContentText.css">
-    <link rel="stylesheet" href="./css/header/headerDescriptionContentSocial.css">
-    <link rel="stylesheet" href="./css/header/headerDescriptionContentSocialLink.css">
+    <link rel="stylesheet" href="./css/header/banner.css">
+    <link rel="stylesheet" href="./css/header/bannerMenu.css">
+    <link rel="stylesheet" href="./css/header/bannerMenuItem.css">
+    <link rel="stylesheet" href="./css/header/bannerLogo.css">
+    <link rel="stylesheet" href="./css/header/bannerEmail.css">
+    <link rel="stylesheet" href="./css/buttonUp/buttonUp.css">
+    <link rel="stylesheet" href="./css/description/description.css">
+    <link rel="stylesheet" href="./css/description/descriptionContent.css">
+    <link rel="stylesheet" href="./css/description/descriptionPhoto.css">
+    <link rel="stylesheet" href="./css/description/descriptionContentTittle.css">
+    <link rel="stylesheet" href="./css/description/descriptionContentText.css">
+    <link rel="stylesheet" href="./css/description/descriptionContentSocialList.css">
+    <link rel="stylesheet" href="./css/about/aboutTittle.css">
+    <link rel="stylesheet" href="./css/about/aboutText.css">
+    <link rel="stylesheet" href="./css/skill/skill.css">
+    <link rel="stylesheet" href="./css/skill/skillLogos.css">
+    <link rel="stylesheet" href="./css/skill/skillLogosItems.css">
+    <link rel="stylesheet" href="./css/skill/skillLogosItemImg.css">
+    <link rel="stylesheet" href="./css/skill/skillLogosItemTittle.css">
+    <link rel="stylesheet" href="./css/hobbies/hobbies.css">
+    <link rel="stylesheet" href="./css/hobbies/hobbiesTittle.css">
+    <link rel="stylesheet" href="./css/hobbies/hobbiesLogos.css">
+    <link rel="stylesheet" href="./css/hobbies/hobbiesLogosItem.css">
+    <link rel="stylesheet" href="./css/hobbies/hobbiesLogosItemImg.css">
+    <link rel="stylesheet" href="./css/hobbies/hobbiesLogosItemTittle.css">
+    <link rel="stylesheet" href="./css/education/education.css">
+    <link rel="stylesheet" href="./css/education/educationTittle.css">
+    <link rel="stylesheet" href="./css/education/educationItems.css">
+    <link rel="stylesheet" href="./css/education/educationItemContentBackground.css">
+    <link rel="stylesheet" href="./css/education/educationItemsContent.css">
+    <link rel="stylesheet" href="./css/education/educationItemsContentText.css">
+    <link rel="stylesheet" href="./css/experience/experience.css">
+    <link rel="stylesheet" href="./css/experience/experienceTittle.css">
+    <link rel="stylesheet" href="./css/experience/experienceItems.css">
+    <link rel="stylesheet" href="./css/experience/experienceItemsContent.css">
+    <link rel="stylesheet" href="./css/experience/experienceItemsContentDescription.css">
+    <link rel="stylesheet" href="./css/experience/experienceItemsContentImg.css">
+    <link rel="stylesheet" href="./css/experience/experienceItemsContentDescriptionTittle.css">
+    <link rel="stylesheet" href="./css/experience/experienceItemsContentDescriptionText.css">
+    <link rel="stylesheet" href="./css/experience/experienceItemsButtons.css">
+    <link rel="stylesheet" href="./css/experience/experienceItemsButtonsButton.css">
+    <link rel="stylesheet" href="./css/contact/contact.css">
+    <link rel="stylesheet" href="./css/contact/contactImg.css">
+    <link rel="stylesheet" href="./css/contact/contactContent.css">
+    <link rel="stylesheet" href="./css/contact/contactTextTittle.css">
+    <link rel="stylesheet" href="./css/contact/contactTextDescription.css">
+    <link rel="stylesheet" href="./css/contact/contactForm.css">
+    <link rel="stylesheet" href="./css/contact/contactFormItem.css">
+    <link rel="stylesheet" href="./css/contact/contactFormItemInput.css">
+    <link rel="stylesheet" href="./css/contact/contactFormItemLabel.css">
+    <link rel="stylesheet" href="./css/contact/contactFormItemButton.css">
+    <link rel="stylesheet" href="./css/footer/footer.css">
+    <link rel="stylesheet" href="./css/footer/footerText.css">
     
     <title>Portafolio</title>
 </head>
 <body>
-    <header class="header">
-        <div class="header__banner">
-            <div class="header__banner__titulo">
-                <div class="header__banner__titulo__logo">
-                    <div class=" header__banner__titulo__logo--img"></div>
-                    <div class="header__banner__titulo__logo--name">
-                        Manuel <br>Rodríguez
-                    </div>
-                </div>
-                <div class="header__banner__titulo__email">
-                    jmarodone@gmail.com
+    <header class="header" id="header">
+        <div class="banner">
+            <div class="banner__logo">
+                <div class="banner__logo--img"></div>
+                <div class="banner__logo--name">
+                    Manuel Rodríguez
                 </div>
             </div>
-        </div>
-        <div class="header__description">
-            <div class="header__descrption__photo header__descrption__photo--img"></div>
-            <div class="header__descrption__content">
-                <div class="header__descrption__content__text--tittle">
-                    Hola, mi nombre es Manuel Rodríguez y desarrollo paginas web
-                </div>
-                <div class="header__descrption__contenido__text--paragraph">
-                    Estudie en la Facultad de Ingeniería en la Universidad Nacional Autónoma de México, la carrera de Ingeniería en computación, donde aprendí los principios de la programación y actualmente estudio para desarrollo web, en el proyecto Oracle ONE en Alura Latam.
-                </div>
-                <div class="header__descrption__content__social">
-                    <ul class="header__descrption__content__social__link">
-                        <li class="header__descrption__content__social__link--github">
-                            <div>
-                                <p>Github</p> 
-                                <a href="google.com"><img src="./img/bxl-github.svg" alt="link github"></a>
-                            </div>
-                        </li>
-                        <li class="header__descrption__content__social__link--curriculum">
-                            <div>
-                                <p>Curriculo</p>
-                                <a href="google.com"><img src="./img/bxs-file-pdf.svg" alt="link curriculum"></a>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
+            <div class="banner__menu">
+                <a class="banner__menu__item" href="#description"><p>Sobre mi</p></a>
+                <a class="banner__menu__item" href="#skill"><p>Skill</p></a>
+                <a class="banner__menu__item" href="#hobbies"><p>Hobbies</p></a>
+                <a class="banner__menu__item" href="#education"><p>Formación</p></a>
+                <a class="banner__menu__item" href="#experience"><p>Experiencia</p></a>
+                <a class="banner__menu__item" href="#contact"><p>Contacto</p></a>
+            </div>
+            <div class="banner__email">
+                jmarodone@gmail.com
             </div>
         </div>
     </header>
+        
+    <a href="#header" class="button__up">
+        <svg class="button__up--icon" xmlns="http://www.w3.org/2000/svg" width="50" height="50"><path d="M5 21h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2zm7-14 5 5h-4v5h-2v-5H7l5-5z"/>
+        </svg>
+    </a>
 
-    <main class="maincontent">
+    <section class="description" id="description">
+        <div class="descrption__photo description__photo--img"></div>
+        <div class="descrption__content">
+            <div class="tittle descrption__content__tittle">
+                Hola, mi nombre es Manuel Rodríguez y desarrollo paginas web
+            </div>
+            <div class="text descrption__content__text">
+                Estudie en la Facultad de Ingeniería en la Universidad Nacional Autónoma de México, la carrera de Ingeniería en computación, donde aprendí los principios de la programación y actualmente estudio para desarrollo web, en el proyecto Oracle ONE en Alura Latam.
+            </div>
+            <div class="descrption__content__social">
+                <ul class="descrption__content__social__list">
+                    <li class="descrption__content__social__list--link">
+                        <p>Github</p> 
+                        <a href="https://github.com/JMaRod"><img src="./img/bxl-github.svg" alt="link github"></a>
+                    </li>
+                    <li class="descrption__content__social__list--link">
+                        <p>Linkedin</p>
+                        <a href="https://www.linkedin.com/in/JMaRod"><img src="./img/bxl-linkedin.svg" alt="linkedin"></a>
+                    </li>
+                    <li class="descrption__content__social__list--link">
+                        <p>Curriculo</p>
+                        <a href="#"><img src="./img/bxs-file-pdf.svg" alt="link curriculum"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
-    </main>
+    <section class="about">
+        <div class="about__tittle">
+            <p class="tittle">Sobre mi</p>
+        </div>
+        <div class="about__text">
+            <p class="text">
+                Soy una persona que le gusta estar informado de las tecnologías, tengo un interés muy particular por los circuitos integrados y el hardware de computadoras, me gusta aprender por mi cuenta, me esfuerzo bastante en aprender cosas cuando algo me interesa, soy organizado en mi tiempo y mi lugar de trabajo. <br>
+                En mis tiempos libres me gusta leer libros de ficción, jugar videojuegos o juegos de mesa, ver series de televisión, también me gusta realizar proyectos de electrónica como pasatiempo.
 
-    <footer class="foot">
+            </p>
+        </div>
 
+    </section>
+
+    <section class="skill" id="skill">
+            <p class="tittle skill__tittle">Skills</p>
+        <div class="skill__logos">
+            <div class="skill__logos__item">
+                <svg class="skill__logos__item__img" viewBox="126.957 117.798 15.729 17.976" width="15.729" height="17.976" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4.136 3.012h15.729l-1.431 16.15-6.451 1.826-6.414-1.826-1.433-16.15zm5.266 7.302-.173-2.035 7.533.002.173-1.963-9.87-.002.522 5.998h6.835l-.243 2.566-2.179.602-2.214-.605-.141-1.58H7.691l.247 3.123L12 17.506l4.028-1.08.558-6.111H9.402v-.001z" transform="matrix(1, 0, 0, 1, 122.82093, 114.785713)"/>
+                </svg>
+                <p class="skill__logos__item__tittle">Html 5</p>
+            </div>
+            <div class="skill__logos__item">
+                <svg class="skill__logos__item__img" viewBox="52.907 81.256 17.401 19.886" width="17.401" height="19.886" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M 52.907 81.256 L 70.308 81.256 L 68.725 99.123 L 61.589 101.142 L 54.491 99.122 L 52.907 81.256 Z M 67.068 84.912 L 56.147 84.91 L 56.323 87.081 L 64.713 87.084 L 64.503 89.335 L 59 89.335 L 59.2 91.466 L 64.322 91.466 L 64.019 94.386 L 61.608 95.052 L 59.159 94.38 L 59.002 92.632 L 56.84 92.632 L 57.081 95.827 L 61.608 97.237 L 66.06 95.97 L 67.068 84.912 L 67.068 84.912 Z"/>
+                </svg>
+                <p class="skill__logos__item__tittle">CSS</p>
+            </div>
+            <div class="skill__logos__item">
+                <svg class="skill__logos__item__img" viewBox="210.643 85.643 18 18" width="18" height="18" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3 3h18v18H3V3zm16.525 13.707c-.131-.821-.666-1.511-2.252-2.155-.552-.259-1.165-.438-1.349-.854-.068-.248-.078-.382-.034-.529.113-.484.687-.629 1.137-.495.293.09.563.315.732.676.775-.507.775-.507 1.316-.844-.203-.314-.304-.451-.439-.586-.473-.528-1.103-.798-2.126-.775l-.528.067c-.507.124-.991.395-1.283.754-.855.968-.608 2.655.427 3.354 1.023.765 2.521.933 2.712 1.653.18.878-.652 1.159-1.475 1.058-.607-.136-.945-.439-1.316-1.002l-1.372.788c.157.359.337.517.607.832 1.305 1.316 4.568 1.249 5.153-.754.021-.067.18-.528.056-1.237l.034.049zm-6.737-5.434h-1.686c0 1.453-.007 2.898-.007 4.354 0 .924.047 1.772-.104 2.033-.247.517-.886.451-1.175.359-.297-.146-.448-.349-.623-.641-.047-.078-.082-.146-.095-.146l-1.368.844c.229.473.563.879.994 1.137.641.383 1.502.507 2.404.305.588-.17 1.095-.519 1.358-1.059.384-.697.302-1.553.299-2.509.008-1.541 0-3.083 0-4.635l.003-.042z" transform="matrix(1, 0, 0, 1, 207.642853, 82.64286)"/>
+                </svg>
+                <p class="skill__logos__item__tittle">Javascript</p>
+            </div>
+            <div class="skill__logos__item">
+                <svg class="skill__logos__item__img" viewBox="138.112 79.259 14.848 20.053" width="14.848" height="20.053" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.37 17.51c-3.09.86 1.87 2.64 5.8 1a7.18 7.18 0 0 1-1.1-.54 11.59 11.59 0 0 1-4.16.18c-1.31-.15-.54-.64-.54-.64zm5.33-1.68a16.27 16.27 0 0 1-5.36.26c-1.31-.14-.45-.77-.45-.77-3.4 1.12 1.89 2.4 6.64 1a2.25 2.25 0 0 1-.83-.49zm1.82-9.73s-6.87 1.71-3.59 5.49a1.47 1.47 0 0 1-.25 2.12s2.46-1.27 1.33-2.86-1.86-2.22 2.51-4.75z" transform="matrix(1, 0, 0, 1, 133.559525, 77.259071)"/>
+                    <path d="M18.13 19.14s.56.46-.63.82c-2.27.69-9.43.9-11.42 0-.72-.31.62-.74 1-.83a2.54 2.54 0 0 1 .69-.08c-.8-.56-5.15 1.1-2.21 1.58 8.05 1.37 14.64-.56 12.57-1.49zm-2.76-4.88a7 7 0 0 1 .92-.49s-1.51.27-3 .4a28.11 28.11 0 0 1-4.82.05C6.09 13.91 9.74 13 9.74 13a6.81 6.81 0 0 0-3.16.75c-2.06 1.03 5.09 1.48 8.79.51zm.91 2.44a.39.39 0 0 1-.08.09c5-1.32 3.18-4.65.78-3.81a.71.71 0 0 0-.33.25s.14-.05.43-.12c1.22-.25 2.92 1.63-.8 3.59zM12 13c-.74-1.67-3.26-3.14 0-5.71C16.09 4.08 14 2 14 2c.84 3.31-3 4.31-4.34 6.37-.93 1.41.47 2.92 2.34 4.63z" transform="matrix(1, 0, 0, 1, 133.559525, 77.259071)"/>
+                    <path d="M16.41 21.32a29.75 29.75 0 0 1-9.14.14s.46.38 2.84.53c3.61.23 9.15-.12 9.29-1.83 0 0-.26.64-2.99 1.16z" transform="matrix(1, 0, 0, 1, 133.559525, 77.259071)"/>
+                </svg>
+                <p class="skill__logos__item__tittle">Java</p>
+            </div>
+            <div class="skill__logos__item">
+                <svg class="skill__logos__item__img" viewBox="0 0 15 15" width="15" height="15" xmlns="http://www.w3.org/2000/svg">
+                    <path d="m7.5.421143 6.5 3.791667v6.57439l-6.5 3.7916-6.5-3.7916v-6.57439zm0 3.578857c-1.933 0-3.5 1.567-3.5 3.5s1.567 3.5 3.5 3.5h.18198c.97652 0 1.91305-.3879 2.60352-1.07843l.0681-.06802-.70715-.7071-.06802.06802c-.50297.50297-1.18514.78553-1.89645.78553h-.18198c-1.38071 0-2.5-1.11929-2.5-2.5s1.11929-2.5 2.5-2.5h.18198c.71131 0 1.39348.28257 1.89645.78553l.06802.06802.70715-.7071-.0681-.06802c-.69047-.69051-1.627-1.07843-2.60352-1.07843z"/>
+                </svg>
+                <p class="skill__logos__item__tittle">C</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="hobbies" id="hobbies">
+            <p class="tittle hobbies__tittle">Hobbies</p>
+        <div class="hobbies__logos">
+            <div class="hobbies__logos__item">
+                <svg class="hobbies__logos__item__img" xmlns='http://www.w3.org/2000/svg'  viewBox='0 0 24 24' fill='#000000' width='24' height='24'><path d="M9 9h6v6H9z"></path><path d="M20 6c0-1.103-.897-2-2-2h-2V2h-2v2h-4V2H8v2H6c-1.103 0-2 .897-2 2v2H2v2h2v4H2v2h2v2c0 1.103.897 2 2 2h2v2h2v-2h4v2h2v-2h2c1.103 0 2-.897 2-2v-2h2v-2h-2v-4h2V8h-2V6zM6 18V6h12l.002 12H6z"></path>
+                </svg>
+                <p class="hobbies__logos__item__tittle">Circuitos digitales</p>
+            </div>
+            <div class="hobbies__logos__item">
+                <svg class="hobbies__logos__item__img" xmlns='http://www.w3.org/2000/svg'  viewBox='0 0 24 24' fill='#000000' width='24' height='24'><path d="M20 3H4c-1.103 0-2 .897-2 2v11c0 1.103.897 2 2 2h7v2H8v2h8v-2h-3v-2h7c1.103 0 2-.897 2-2V5c0-1.103-.897-2-2-2zM4 14V5h16l.002 9H4z"></path>
+                </svg>
+                <p class="hobbies__logos__item__tittle">Computación</p>
+            </div>
+            <div class="hobbies__logos__item">
+                <svg class="hobbies__logos__item__img" xmlns='http://www.w3.org/2000/svg'  viewBox='0 0 24 24' fill='#000000' width='24' height='24'><path d="M6.012 18H21V4a2 2 0 0 0-2-2H6c-1.206 0-3 .799-3 3v14c0 2.201 1.794 3 3 3h15v-2H6.012C5.55 19.988 5 19.805 5 19s.55-.988 1.012-1zM8 6h9v2H8V6z"></path>
+                </svg>
+                <p class="hobbies__logos__item__tittle">Leer</p>
+            </div>
+            <div class="hobbies__logos__item">
+                <svg class="hobbies__logos__item__img" xmlns='http://www.w3.org/2000/svg'  viewBox='0 0 24 24' fill='#000000' width='24' height='24'><path d="M12 22c3.719 0 7.063-2.035 8.809-5.314L13 12l7.809-4.686C19.063 4.035 15.719 2 12 2 6.486 2 2 6.486 2 12s4.486 10 10 10zm-.5-16a1.5 1.5 0 1 1-.001 3.001A1.5 1.5 0 0 1 11.5 6z"></path>
+                </svg>
+                <p class="hobbies__logos__item__tittle">Juegos</p>
+            </div>
+            <div class="hobbies__logos__item">
+                <svg class="hobbies__logos__item__img" xmlns='http://www.w3.org/2000/svg'  viewBox='0 0 24 24' fill='#000000' width='24' height='24'><path d="M20 6h-5.586l2.293-2.293-1.414-1.414L12 5.586 8.707 2.293 7.293 3.707 9.586 6H4c-1.103 0-2 .897-2 2v11c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V8c0-1.103-.897-2-2-2zM4 19V8h16l.002 11H4z"></path>
+                </svg>
+                <p class="hobbies__logos__item__tittle">Series de tv</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="education" id="education">
+        <p class="tittle education__tittle">Formación Académica</p>
+        <div class="education__items">
+            <div class="education__items__content">
+                <div class="education__item__content__background">
+                    <div class="education__items__content__logo education__items__content__logo--fi"></div>
+                </div>
+                <p class="education__items__content__text">
+                    Facultad de ingeniería UNAM 
+                </p>
+            </div>
+            <div class="education__items__content ">
+                <div class="education__item__content__background">
+                    <div class="education__items__content__logo education__items__content__logo--Lx"></div>
+                </div>
+                <p class="education__items__content__text">
+                    LaunchX de Innovaccion virtual
+                </p>
+            </div>
+            <div class="education__items__content ">
+                <div class="education__item__content__background">
+                    <div class="education__items__content__logo education__items__content__logo--alura"></div>
+                </div>
+                <p class="education__items__content__text">
+                    Oracle Next - Alura latam
+                </p>
+            </div>
+            
+        </div>
+        
+    </section>
+
+    <section class="experience" id="experience">
+        <p class="tittle experience__tittle">Experiencia</p>
+        <div class="experience__items">
+            <div class="experience__items__content ">
+                <div class="experience__items__content__img experience__items__content__img--ahorcado">
+                </div>
+                <div class="experience__items__content_description">
+                    <p class="experience__items__content__description__tittle">Juego ahorcado</p>
+                    <p class="experience__items__content__description__text">Proyecto creado con HTML y Javascript que recrea el juego de palabras del ahorcado <br>Para Oracle NEXT.</p>
+                    <div class="experience__items__buttons">
+                        <a href="https://github.com/JMaRod/juegoAhorcado">
+                            <p class="experience__items__buttons__button experience__items__buttons__button--rep">Repositorio</p>
+                        </a>
+                        <a href="https://jmarod.github.io/juegoAhorcado/">
+                            <p class="experience__items__buttons__button experience__items__buttons__button--demo">Ver demo</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="experience__items__content">
+                <div class="experience__items__content__img experience__items__content__img--encriptador">
+                </div>
+                <div class="experience__items__content_description">
+                    <p class="experience__items__content__description__tittle">Encriptador de mensajes</p>
+                    <p class="experience__items__content__description__text">Proyecto creado con HTML y Javascript que encripta un mensaje de texto, igual que puede descencriptar el mensaje <br>Para Oracle NEXT.</p>
+                    <div class="experience__items__buttons">
+                        <a href="https://github.com/JMaRod/Encoder-Decoder">
+                            <p class="experience__items__buttons__button experience__items__buttons__button--rep">Repositorio</p>
+                        </a>
+                        <a href="https://jmarod.github.io/Encoder-Decoder/">
+                            <p class="experience__items__buttons__button experience__items__buttons__button--demo">Ver demo</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contact__img">
+        </div>
+        <div class="contact__content">
+            <div class="contact__text">
+                <div class="tittle contact__text__tittle">
+                    Contacto
+                </div>
+                <div class="text contact__text__description">
+                    ¿Quieres contactarme?
+                    Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.
+                </div>
+    
+            </div>
+            <form class="contact__form" method="post" action="" >
+                <div class="contact__form__item">
+                    <label for="fname"  class="contact__form__item__label">Nombre:</label>
+                    <input type="text" id="fname" name="fname" class="contact__form__item__input" required>
+                </div>
+                <div class="contact__form__item">
+                    <label for="femail" class="contact__form__item__label">Email:</label>
+                    <input type="email" id="femail" name="femail" class="contact__form__item__input" required>
+                </div>
+                <div class="contact__form__item">
+                    <label for="fsubject" class="contact__form__item__label">Asunto:</label>
+                    <input type="text" id="fsubject" name="fsubject" class="contact__form__item__input" required>
+                </div>
+                <div class="contact__form__item">
+                    <label for="fmessage" class="contact__form__item__label">Mensaje:</label>
+                    <textarea type="text" id="fmessage" name="fmessage" size="4" class="contact__form__item__input contact__form__item__input--message" required> </textarea>
+                </div>
+                <button class="contact__form__item__button" type="submit">Enviar mensaje</button>
+            </form>
+        </div>
+
+    </section>
+
+    <footer class="footer">
+        <p class="text footer__text">
+            Desarrollado Manuel Rodríguez <br>2022
+        </p>
     </footer>
     
 </body>

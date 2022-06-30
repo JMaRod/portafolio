@@ -1,0 +1,14 @@
+.contact__form__item {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--form--bg);
+    margin-bottom: 32px;
+}
+
+.contact__form__item:hover {
+    border-bottom: 2px;
+    border-bottom-color: var(--form-bt-bg);
+    border-bottom-style: solid;
+    color: var( --form-br-hover )
+}

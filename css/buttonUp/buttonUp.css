@@ -1,0 +1,13 @@
+.button__up--icon {
+	position: fixed;
+	bottom:0px;
+	right:0px;
+	fill: var(--button-up);
+}
+
+@media screen and (min-width:768px) {
+	.button__up--icon {
+		transform: scale(2);
+	}
+	
+}

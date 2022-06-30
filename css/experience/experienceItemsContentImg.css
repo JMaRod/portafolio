@@ -1,0 +1,30 @@
+.experience__items__content__img{
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 16px;
+    transition: transform 0.3s linear 0.2s;
+}
+
+.experience__items__content__img--ahorcado {
+    background-image: url(../../img/ahorcado.gif);
+}
+
+.experience__items__content__img--encriptador {
+    background-image: url(../../img/encoder.gif);
+}
+
+.experience__items__content__img--pokedex {
+    background-image: url(../../img/pokedex.gif);
+}
+
+@media screen and (min-width:1024px) {
+    .experience__items__content__img {
+        width: 80%;
+    }
+
+    .experience__items__content__img:hover{
+        transform: scale(1.3);
+    }
+}

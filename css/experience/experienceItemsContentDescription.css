@@ -1,0 +1,8 @@
+@media screen and (min-width:1024px) {
+    .experience__items__content_description {
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

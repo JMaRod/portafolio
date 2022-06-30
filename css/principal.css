@@ -1,7 +1,53 @@
 :root {
-    --head-bg:#E5E5E5;
+    --main-bg:#DDECEA;
+    --main-text: #270000;
+    --color-border-photo: #B85821;
+    --sv--bg:#2A7AE4;
+    --form--bg:rgba(0, 0, 0, 0.139);
+    --form-bt-bg:rgb(85, 187, 255);
+    --form-br-hover:rgb(85, 187, 255);
+    --button-up:rgb(138, 44, 226);
+
+    scroll-behavior: smooth;
 }
 
-html{
+body{
     padding: 10px;
+    background-color:var(--main-bg);
+    margin: 16px;
+    color: var(--main-text);
+}
+
+.tittle {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 19px;
+    margin-bottom: 16px;
+}
+
+.text {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 16px;
+}
+
+@media screen and (min-width:1024px) {
+    .tittle {
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 38px;
+        margin-bottom: 30px;
+    }
+    
+    .text {
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 27px;
+        margin-bottom: 16px;
+    }
 }

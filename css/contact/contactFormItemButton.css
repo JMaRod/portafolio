@@ -1,0 +1,13 @@
+
+.contact__form__item__button{
+    background-color: #2A7AE4;
+    color: white;
+    border: none;
+    padding: 12px 16px;
+    align-items: center;
+    gap: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+

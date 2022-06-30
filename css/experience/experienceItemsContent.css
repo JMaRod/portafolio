@@ -1,0 +1,10 @@
+@media screen and (min-width:1024px) {
+    .experience__items__content {
+        display: flex;
+    } 
+    .experience__items__content:nth-child(even) {
+        display: flex;
+        flex-direction: row-reverse;
+        margin: 40px;
+    } 
+}

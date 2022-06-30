@@ -1,0 +1,11 @@
+.hobbies__logos__item__tittle {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+}
+
+@media screen and (min-width:1024px) {
+    .hobbies__logos__item__tittle {
+        font-weight: 400;
+    }
+    
+}

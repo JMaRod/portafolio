@@ -1,0 +1,15 @@
+.descrption__content__text {
+    margin-top: 15px;
+}
+
+@media screen and (min-width:1024px) {
+    .descrption__content__text {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 26px;
+        margin-top: 15px;
+    }
+    
+}

@@ -1,0 +1,17 @@
+.contact__img {
+    display: none;
+}
+
+@media screen and (min-width:1024px) {
+    .contact__img {
+        width: 50%;
+        height: 457px;
+        display: block;
+        background-image: url(../../img/contact.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position:50% 50%;
+        margin-top: 100px;
+    }
+    
+}

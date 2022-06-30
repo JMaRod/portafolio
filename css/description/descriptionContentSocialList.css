@@ -1,0 +1,30 @@
+.descrption__content__social__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.descrption__content__social__list--link{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    font-size: 14px;
+}
+
+.descrption__content__social__list--link img{
+    margin: 3px;
+}
+
+@media screen and (min-width:1024px) {
+    .descrption__content__social__list--link {
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 19px;
+    }
+    
+}
+
+
+
+

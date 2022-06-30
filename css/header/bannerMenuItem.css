@@ -1,0 +1,10 @@
+.banner__menu__item {
+    display:block;
+    font-size: 14px;
+    margin: 5px;
+    color: var(--main-text);
+}
+
+.banner__menu__item:link, :visited, :hover, :active {
+    text-decoration: none;
+}
