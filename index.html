@@ -87,12 +87,14 @@
             </div>
         </div>
     </header>
-        
-    <a href="#header" class="button__up">
-        <svg class="button__up--icon" xmlns="http://www.w3.org/2000/svg" width="50" height="50"><path d="M5 21h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2zm7-14 5 5h-4v5h-2v-5H7l5-5z"/>
-        </svg>
-    </a>
-
+      
+    <div class="button__top">
+        <a href="#header" class="button__up">
+            <svg class="button__up--icon" xmlns="http://www.w3.org/2000/svg" width="50" height="50"><path d="M5 21h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2zm7-14 5 5h-4v5h-2v-5H7l5-5z"/>
+            </svg>
+        </a>
+    </div>
+    
     <section class="description" id="description">
         <div class="descrption__photo description__photo--img"></div>
         <div class="descrption__content">
@@ -292,21 +294,26 @@
             <form class="contact__form" method="post" action="" >
                 <div class="contact__form__item">
                     <label for="fname"  class="contact__form__item__label">Nombre:</label>
-                    <input type="text" id="fname" name="fname" class="contact__form__item__input" required>
+                    <input type="text" id="fname" name="fname" class="contact__form__item__input" required data-tipo="nombre" pattern="[\s\S]{1,50}" autocomplete="off">
+                    <span class="contact__form__item__input--error"></span>
                 </div>
                 <div class="contact__form__item">
                     <label for="femail" class="contact__form__item__label">Email:</label>
-                    <input type="email" id="femail" name="femail" class="contact__form__item__input" required>
+                    <input type="email" id="femail" name="femail" class="contact__form__item__input" required data-tipo="email" pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" autocomplete="offcoplete">
+                    <!-- se tuvo que poner autocomplete=”offcomplete”, debido a que Chrome, no obedece quitar el autocomplete en email -->
+                    <span class="contact__form__item__input--error"></span>
                 </div>
                 <div class="contact__form__item">
                     <label for="fsubject" class="contact__form__item__label">Asunto:</label>
-                    <input type="text" id="fsubject" name="fsubject" class="contact__form__item__input" required>
+                    <input type="text" id="fsubject" name="fsubject" class="contact__form__item__input" required data-tipo="asunto" pattern="[\s\S]{1,50}" autocomplete="off">
+                    <span class="contact__form__item__input--error"></span>
                 </div>
                 <div class="contact__form__item">
                     <label for="fmessage" class="contact__form__item__label">Mensaje:</label>
-                    <textarea type="text" id="fmessage" name="fmessage" size="4" class="contact__form__item__input contact__form__item__input--message" required> </textarea>
+                    <textarea type="text" id="fmessage" name="fmessage" class="contact__form__item__input contact__form__item__input--message" required data-tipo="mensaje" maxlength="300" autocomplete="off"></textarea>
+                    <span class="contact__form__item__input--error"></span>
                 </div>
-                <button class="contact__form__item__button" type="submit">Enviar mensaje</button>
+                <button class="contact__form__item__button" type="submit" disabled>Enviar mensaje</button>
             </form>
         </div>
 
@@ -317,6 +324,6 @@
             Desarrollado Manuel Rodríguez <br>2022
         </p>
     </footer>
-    
+    <script src="./js/app.js" type="module"></script>
 </body>
 </html>

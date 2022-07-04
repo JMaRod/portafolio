@@ -10,5 +10,16 @@
     border-bottom: 2px;
     border-bottom-color: var(--form-bt-bg);
     border-bottom-style: solid;
-    color: var( --form-br-hover )
+    color: var( --form-bg-hover )
+}
+
+.contact__form__item--invalid{
+    border: 2px;
+    border-color: var(--mg-err-bg);
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.contact__form__item--invalid:hover{
+    border-color: var(--mg-err-bg);
 }

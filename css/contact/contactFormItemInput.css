@@ -20,3 +20,7 @@
     height: 133px;
 }
 
+.contact__form__item__input--error{
+    color: var(--ms-err-txt);
+}
+

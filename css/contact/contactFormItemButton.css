@@ -11,3 +11,7 @@
     font-size: 16px;
 }
 
+.contact__form__item__button:disabled {
+    background: #ccc;
+}
+

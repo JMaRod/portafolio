@@ -5,8 +5,13 @@
     --sv--bg:#2A7AE4;
     --form--bg:rgba(0, 0, 0, 0.139);
     --form-bt-bg:rgb(85, 187, 255);
-    --form-br-hover:rgb(85, 187, 255);
+    --form-bg-hover:rgb(85, 187, 255);
     --button-up:rgb(138, 44, 226);
+    --mg-err-bg: rgb(221, 33, 33);
+    /* message errror background */
+    --ms-err-txt:rgb(143, 7, 7);
+    /* message error text */
+
 
     scroll-behavior: smooth;
 }

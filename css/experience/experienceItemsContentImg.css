@@ -15,10 +15,6 @@
     background-image: url(../../img/encoder.gif);
 }
 
-.experience__items__content__img--pokedex {
-    background-image: url(../../img/pokedex.gif);
-}
-
 @media screen and (min-width:1024px) {
     .experience__items__content__img {
         width: 80%;
