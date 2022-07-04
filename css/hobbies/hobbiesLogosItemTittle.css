@@ -1,11 +1,21 @@
 .hobbies__logos__item__tittle {
+    width: 100%;
     font-family: 'Montserrat',sans-serif;
     font-weight: 700;
+    word-wrap: break-word;
+    /* corta una palabra que salga del contenedor, requiere un width fjio */
+}
+
+@media screen and (min-width:768px) {
+    .hobbies__logos__item__tittle {
+        text-align: center;
+    }
+    
 }
 
 @media screen and (min-width:1024px) {
     .hobbies__logos__item__tittle {
         font-weight: 400;
-    }
-    
+        text-align: center;
+    } 
 }

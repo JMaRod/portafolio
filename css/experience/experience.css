@@ -1,3 +1,7 @@
+.experience {
+    background-color:rgba(249, 23, 230, 0.3);
+}
+
 @media screen and (min-width:1024px) {
     .experience{
         margin-bottom: 40px;

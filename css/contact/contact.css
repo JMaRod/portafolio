@@ -1,3 +1,7 @@
+.contact {
+    background-color: rgba(23, 223, 249, 0.3);
+}
+
 @media screen and (min-width:1024px) {
     .contact {
         display: flex;

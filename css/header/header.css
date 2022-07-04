@@ -1,5 +1,9 @@
 .header {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    padding: 20px;
+    padding-bottom: 0px;
+    box-sizing: border-box;
+    background: #00000015;
 }

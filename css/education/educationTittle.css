@@ -1,6 +1,10 @@
+.education__tittle {
+    text-align: center;
+}
+
 @media screen and (min-width: 768px) {
     .education__tittle {
         width: 100%;
-        text-align: center;
+        justify-content: center;
     }
 }
